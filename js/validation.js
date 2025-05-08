@@ -1,3 +1,7 @@
+//PLEASE IGNORE THIS. 
+//THIS WAS MY FIRST ATTEMPT THEN I REALIZED I NEEDED TO USE HIGH-ORDER FUNCTIONS.
+//KEPT IT HERE FOR MYSELF.
+
 document.getElementById("form").addEventListener("submit", function (event) {
     const firstName = document.getElementById("fname").value.trim();
     const lastName = document.getElementById("lname").value.trim();

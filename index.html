@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>CS601 HW1 Benson</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/validation.js" defer></script>
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
     <form id="form">
-        <label for="fname">First Name: </label>
-        <input type="text" id="fname" name="fname"><br>
-        <span id="ferror"></span><br>
-        <label for="lname">Last Name: </label>
-        <input type="text" id="lname" name="lname"><br>
-        <span id="lerror"></span><br>
-        <label for="email">Email: </label>
-        <input type="text" id="email" name="email"><br>
-        <span id="emerror"></span><br>
-        <label for="package">Package: </label>
-        <select name="package" id="package">
-            <option value="">-- Please choose a Subscription Package --</option>
-            <option value="Bronze">Bronze</option>
-            <option value="Silver">Silver</option>
-            <option value="Gold">Gold</option>
-            <option value="Platinum">Platinum</option>
-        </select><br>
-        <span id="perror"></span><br>
-        <div class="sub-center">
-            <p>Subscribe: </p>
-            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
-            <label for="subscribe"> Yes!</label><br>
-            <span id="suberror"></span><br>
-            <button type="submit">Submit</button>
-        </div>
+      <label for="fname">First Name: </label>
+      <input type="text" id="fname" name="fname" /><br />
+      <span id="ferror"></span><br />
+      <label for="lname">Last Name: </label>
+      <input type="text" id="lname" name="lname" /><br />
+      <span id="lerror"></span><br />
+      <label for="email">Email: </label>
+      <input type="text" id="email" name="email" /><br />
+      <span id="emerror"></span><br />
+      <label for="package">Package: </label>
+      <select name="package" id="package">
+        <option value="">-- Please choose a Subscription Package --</option>
+        <option value="Bronze">Bronze</option>
+        <option value="Silver">Silver</option>
+        <option value="Gold">Gold</option>
+        <option value="Platinum">Platinum</option></select
+      ><br />
+      <span id="perror"></span><br />
+      <div class="sub-center">
+        <p>Subscribe:</p>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+        <label for="subscribe"> Yes!</label><br />
+        <span id="suberror"></span><br />
+        <button type="submit">Submit</button>
+      </div>
     </form>
-    <div id="summary" style="display: none; margin-top: 20px;"></div>
-</body>
+    <div id="summary"></div>
+  </body>
 </html>
