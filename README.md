@@ -28,14 +28,15 @@ This is a simple HTML/CSS/JavaScript form that allows a user to enter their firs
 
 ## File Structure
 
--CS601_HW1_BENSON
---index.html # Main HTML structure
---js
----script.js # JavaScript form validation and summary logic
----validation.js # First attempt Please ignore
---css
----style.css # Styles for the form
---README.md
+```
+project-root/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── validation.js
+└── README.md
+```
 
 ## Author
 
