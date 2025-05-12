@@ -29,7 +29,7 @@ This is a simple HTML/CSS/JavaScript form that allows a user to enter their firs
 ## File Structure
 
 ```
-project-root/
+CS601_HW1_Benson/
 ├── index.html
 ├── css/
 │   └── style.css
